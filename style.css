@@ -1,0 +1,46 @@
+/*Estilização geral do site*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Estilização do HEADER da página*/
+header{
+    background-color: #000000;
+}
+/*Estilização do LOGOTIPO*/
+.deboche{
+    width: 30%;
+}
+/*Estilização do MENU*/
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+/*Estilização do LOGOTIPO*/
+.rose{
+    width: 30%;
+}
